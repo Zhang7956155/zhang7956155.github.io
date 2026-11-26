@@ -1,0 +1,40 @@
+name: Update DSH plugin index
+
+on:
+  schedule:
+    # 每天 UTC 02:00 = 北京时间 10:00
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate index.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_index.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- index.json; then
+            echo "No index changes to commit."
+          else
+            git add index.json
+            git commit -m "chore: refresh DSH plugin index [automated]"
+            git push
+            echo "Index updated and pushed. GitHub Pages will republish shortly."
+          fi
