@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Zhang's DSH plugins",
+    "zh": "Zhang 的 DSH 插件源"
+  },
+  "description": {
+    "en": "Plugins maintained in Zhang7956155's GitHub repositories.",
+    "zh": "Zhang7956155 GitHub 仓库中维护的 DSH 插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-purge-community",
+      "title": {
+        "en": "dsh-purge Community",
+        "zh": "dsh-purge 社区版"
+      },
+      "description": {
+        "en": "Community-maintained DSH add-on: host compatibility, status diagnostics, prompt/rule management, verified updates and local backup/rollback.",
+        "zh": "DSH 社区维护版：宿主兼容、状态诊断、提示词与规则管理、校验更新与本机备份回滚。"
+      },
+      "author": "Zhang7956155",
+      "homepage": "https://github.com/Zhang7956155/dsh-purge-community-1.6.86#readme",
+      "repository": {
+        "url": "https://github.com/Zhang7956155/dsh-purge-community-1.6.86"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxNjY1MzQiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQyIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "1.6.86",
+          "publishTimestamp": 1794181281,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Zhang7956155/dsh-purge-community-1.6.86",
+            "commit": "126caa2c99297223a7e0e87e604aecfc802f396e"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-purge",
+      "title": {
+        "en": "dsh-purge 1.1.96",
+        "zh": "dsh-purge 1.1.96"
+      },
+      "description": {
+        "en": "Multi-model prompt/rule switching plugin for DeepSeek Harness (community fork).",
+        "zh": "DeepSeek Harness 多模型提示词与规则切换插件（社区维护分支）。"
+      },
+      "author": "Zhang7956155",
+      "homepage": "https://github.com/Zhang7956155/dsh-purge-1.1.96#readme",
+      "repository": {
+        "url": "https://github.com/Zhang7956155/dsh-purge-1.1.96"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxZDRlZDgiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQyIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "1.1.96",
+          "publishTimestamp": 1794150537,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Zhang7956155/dsh-purge-1.1.96",
+            "commit": "440af7d6bf0888afa80fd6102d3176113e9e9ecd"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-purge-safe",
+      "title": {
+        "en": "dsh-purge (021 rc5)",
+        "zh": "dsh-purge（021 rc5）"
+      },
+      "description": {
+        "en": "Community fork of dsh-purge with per-model prompt profiles.",
+        "zh": "dsh-purge 社区分支，支持按模型切换提示词配置。"
+      },
+      "author": "Zhang7956155",
+      "homepage": "https://github.com/Zhang7956155/dsh-purge-021rc5#readme",
+      "repository": {
+        "url": "https://github.com/Zhang7956155/dsh-purge-021rc5"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiM3YzNhZWQiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQyIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794072115,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Zhang7956155/dsh-purge-021rc5",
+            "commit": "d27941ba13e361f7429398cefe937c5ceee125fc"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@rain-kl/dsh-preset-plus",
+      "title": {
+        "en": "DSH Preset Plus",
+        "zh": "DSH 预设增强"
+      },
+      "description": {
+        "en": "Editable preset editor for system/user/assistant entries, with one-click preset apply.",
+        "zh": "可编辑的预设编辑器，支持系统/用户/助手条目与一键应用预设。"
+      },
+      "author": "Zhang7956155",
+      "homepage": "https://github.com/Zhang7956155/dsh-preset-plus#readme",
+      "repository": {
+        "url": "https://github.com/Zhang7956155/dsh-preset-plus"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwODkxYjIiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQyIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793539096,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Zhang7956155/dsh-preset-plus",
+            "commit": "90674c90ec91a8c60a52d29e92c5218c0edad8e9"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-purge",
+      "title": {
+        "en": "dsh-purge 1.1.71 (mirror)",
+        "zh": "dsh-purge 1.1.71（镜像）"
+      },
+      "description": {
+        "en": "Source mirror of dsh-purge v1.1.71 for DeepSeek Harness.",
+        "zh": "dsh-purge v1.1.71 源码镜像，适用于 DeepSeek Harness。"
+      },
+      "author": "Zhang7956155",
+      "homepage": "https://github.com/Zhang7956155/dsh-purge-1.1.71#readme",
+      "repository": {
+        "url": "https://github.com/Zhang7956155/dsh-purge-1.1.71"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiNiNDUzMDkiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQyIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "1.1.71",
+          "publishTimestamp": 1792729789,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Zhang7956155/dsh-purge-1.1.71",
+            "commit": "719a741ddda2b888920a1586dea9eb396af3ea1b"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dshmarket",
+      "title": {
+        "en": "dsh-market",
+        "zh": "DSH 插件市场"
+      },
+      "description": {
+        "en": "The visual plugin market inside DeepSeek Harness: browse, search, install, update.",
+        "zh": "DeepSeek Harness 可视化插件市场：浏览、搜索、安装与更新。"
+      },
+      "author": "Zhang7956155",
+      "homepage": "https://github.com/Zhang7956155/dsh-market#readme",
+      "repository": {
+        "url": "https://github.com/Zhang7956155/dsh-market"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiNiZTEyM2MiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQyIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "1.73.20",
+          "publishTimestamp": 1794775124,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Zhang7956155/dsh-market",
+            "commit": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c"
+          }
+        }
+      ]
+    }
+  ]
+}
