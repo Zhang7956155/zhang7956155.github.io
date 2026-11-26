@@ -83,7 +83,7 @@ METADATA = {
     },
     "dsh-purge-1.1.71": {
         "order": 5,
-        "name": "dsh-purge",
+        "name": "dsh-purge-mirror",
         "title": {"en": "dsh-purge 1.1.71 (mirror)", "zh": "dsh-purge 1.1.71（镜像）"},
         "description": {
             "en": "Source mirror of dsh-purge v1.1.71 for DeepSeek Harness.",
